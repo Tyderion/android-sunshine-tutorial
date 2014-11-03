@@ -5,7 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="action_refresh">Refresh</string>
-    <string name="title_activity_weather_detail">WeatherDetailActivity</string>
+    <string name="title_activity_weather_detail">Details</string>
     <string name="title_activity_settings">Settings</string>
 
     <string name="pref_location_label">Location</string>
@@ -13,7 +13,9 @@
     <string name="pref_location_default" translatable = "false">Zürich</string>
     <string name="pref_unit_key">unit</string>
     <string name="pref_unit_label">Temperature Units</string>
-    <string name="pref_unit_default">0</string>
+    <string name="pref_unit_default">metric</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
 
     <string-array name="pref_unit_values">
        <item>Metric</item>
@@ -21,7 +23,7 @@
     </string-array>
 
     <string-array name="pref_unit_entries">
-        <item>0</item>
-        <item>1</item>
+        <item>metric</item>
+        <item>imperial</item>
     </string-array>
 </resources>
