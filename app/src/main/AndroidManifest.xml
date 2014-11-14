@@ -34,6 +34,11 @@
                 android:value="MainActivity"
                 />
         </activity>
+        <provider
+            android:authorities="com.swisscom.android.sunshine"
+            android:name=".data.WeatherProvider"
+            android:enabled="true"
+            android:exported="true"/>
     </application>
 
 </manifest>
